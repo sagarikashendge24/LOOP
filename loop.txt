@@ -1,0 +1,202 @@
+ n=int(input("ENTER THE NUMBER"))
+# i=1
+# while i<=5:
+#     i=int(input("GUESS WHAT IS THE NUMBER"))
+#     if n==i:
+#         print("you gussed right")
+#         break
+#     else:
+#         print("it's wrong")  
+
+
+
+
+# n=int(input("ENTER THE NUMBER"))
+# rev=0
+# while n>0:
+#     reminder=n%10
+#     rev=(rev*10)+reminder
+#     n=n//10
+# print(rev)
+
+
+# i=1
+# while i<=20:
+#     if i%2==0:
+#         print(i,"even")
+#     else:
+#         print(i,"odd")
+#     i=i+1    
+
+
+# n=int(input("ENTER THE YEAR"))
+# if n%4==0:
+#     if n%100!=0:
+#         if n%400==0:     
+#             print(n,"IS A LEAP YEAR")
+#         else:
+#             print(n,"IT IS NOT A LEAP YEAR")
+#     else:
+#         print(n,"IT IS A LEAP YEAR")
+# else:
+#     print(n,"IT IS NOT A LEAP YEAR")                
+
+
+
+# i=1
+# j=4
+# while i<=5:
+#     print(" "*j+i*" *"+j*" ")
+#     i=i+1
+#     j-=1
+# a=1
+# b=4
+# while b>0:
+#     print(" "*a+b*" *"+a*" ") 
+#     b=b-1
+#     a=a+1   
+
+
+
+# i=1
+# j=60
+# while i<6:
+#     k=1
+#     a=j+5
+#     while k<=5:
+#         print(chr(a),end=" ")
+#         j=j+1
+#         k=k+1
+#         a=a+1
+#     print( )
+#     i=i+1    
+
+
+
+# user=int(input("ENTER THE NUMBER"))
+# i=2
+# a=0
+# while i<=user :
+#     if user%i==0:
+#         print(i)
+#         a=a+1
+#     i=i+1
+#     if a==2:
+#         print("IT IS PRIME NUMBER")
+#     else:
+#         print("IT IS NOT PRIME NUMBER")        
+
+
+# n=int(input("ENTER THE NUMBER"))
+# i=1
+# fac=1
+# while i<=n:
+#     fac=fac*i
+#     i=i+1
+# print("FACTORIAL IS % d"%fac)    
+
+
+# num=int(input("ENTER THE NUMBER"))
+# i=1
+# sum=0
+# while i<num:
+#     if num%i==0:
+#         sum=sum+1
+#     i=i+1
+#     if sum==num:
+#         print(num,"IS PERFECT NUMBER") 
+#     else:
+#         print(num,"IS NOT A PERFECT NUMBER")     
+
+# sum=0
+# s=0
+# while s<11:
+#     weight=int(input("ENTER THE WEIGHT"))
+#     sum=sum+weight
+#     avg=sum//11
+#     s=s+1
+# print(avg)
+# if avg%5==0:
+#     print("IT IS DIVISIBLE")
+# else:
+#     print("NOT DIVISIBLE")        
+
+
+
+# i=1
+# num=int(input("ENTER THE NUMBER"))
+# while i<num:
+#     if num%i==0:
+#         print(i)
+#     i=i+1
+
+
+
+
+#printing numbers
+# k=1
+# i=0
+# while i<=5:
+#     j=1
+#     while j<=i:
+#         print(j,end=" ")
+#         j=j+1
+#     while j>0:
+#         print(j,end=" ")
+#         j=j-1
+#     print( )
+#     i=i+1
+# 
+# b=1
+# while b<=5:
+#     print(" ",end=" ")
+#     b=b+1
+
+
+
+
+# fabniccis series
+# n=int(input("ENTER THE NUMBER"))
+# x=0
+# y=1
+# z=0
+# while z<=n:
+#     print(z)
+#     x=y
+#     y=z
+#     z=x+y    
+
+#PEREFECT NUMBER
+# n=int(input("ENTER THE NUMBER"))
+# i=1
+# s=0
+# while i<n:
+#     if n%i==0:
+#         print(i)
+#         s=s+i
+#     i=i+1
+# print("sum",s) 
+# if n==s:
+#     print("IT IS A PEREFCT NUMBER")
+# else:
+#     print("IT IS NOT A PEREFECT NUMBER")       
+
+# last digit
+# i=0
+# while i<=100:
+#     if i%10==2:
+#         print(i)
+#     i=i+1    
+
+
+# binary number
+# i=0
+# while i<=5:
+#     print(" 1 0"*i,"1",end="")
+#     j=0
+#     while j>i:
+#         print("1",end="")
+#         j-=1
+#     print()    
+#     i=i+1    
+
